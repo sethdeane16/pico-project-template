@@ -1,0 +1,1 @@
+#define BLINK_DURATION 5000 // ms

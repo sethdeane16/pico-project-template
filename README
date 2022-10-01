@@ -1,0 +1,9 @@
+This is a template project for development using the raspberry pi pico development board using a picoprobe. The "pico-project-template" directory is intended to be copied and modified for use in a new project.
+
+Specific locations in this directory that will require modification include...
+- makeAndLoad.sh (update project name and any applicable paths)
+- CMakeLists.txt (add any self-developed library paths)
+- src/CMakeLists.txt (update any library files and executable files)
+- any includes in source files
+
+main.c contains a silly demonstration proram that does two things. It blinks the LED using an imported self-developed library. It also shows how to include a pico-sdk library and read registers. These two functions demonstrate simple mechanisms to ensure that the template project is working during the setup process.
